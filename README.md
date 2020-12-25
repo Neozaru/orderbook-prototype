@@ -8,13 +8,23 @@ In two separate consoles :
 Server
 ```
 cd simple-orderbooks-server
+yarn install
 yarn start
 ```
 
 Client
 ```
 cd simple-orderbooks-client
+yarn install
 yarn start
+```
+
+Running tests (backend only)
+---
+```
+cd simple-orderbooks-server
+yarn install
+yarn test
 ```
 
 REMARKS
